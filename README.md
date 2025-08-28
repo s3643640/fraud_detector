@@ -1,6 +1,6 @@
 # 🚀 Fraud Detection API (FastAPI + Scikit-learn + MLflow + Docker)
 
-This repository contains a **machine learning application** that detects potentially fraudulent transactions.  
+This repository contains a **machine learning application** that detects potentially fraudulent transactions with endpoints accessed via an inference server. 
 It uses **FastAPI** to serve predictions, **scikit-learn** for modeling, **MLflow** for experiment tracking, and **Docker** for containerization.
 
 
