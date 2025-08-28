@@ -13,9 +13,7 @@ EXPERIMENT = os.getenv("MLFLOW_EXPERIMENT", "dummy_fraud_min")
 SEED       = int(os.getenv("SEED", "42"))
 MAX_ITER   = int(os.getenv("MAX_ITER", "200"))
 
-# -----------------------------------------------------------------------------
-# Data generator
-# -----------------------------------------------------------------------------
+
 def make_dummy(n: int = 2000, seed: int = SEED) -> pd.DataFrame:
     """
     Create a synthetic dataset for fraud detection.
@@ -91,4 +89,5 @@ def train():
 
 if __name__ == "__main__":
     train()
+
 
