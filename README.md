@@ -49,6 +49,7 @@ python -m uvicorn app.main:app --reload
   "timestamp": "2025-08-28T12:00:00Z"
 }
 ```
+- You can see the probability that the transaction is a fraudulent one and the detection as to true or not in the Response body.
 ## 🖥️ Running with Docker
 ### 1. Build the image
   ```bash
