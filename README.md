@@ -28,6 +28,7 @@ python -m uvicorn app.main:app --reload
 - Swagger UI: http://127.0.0.1:8000/docs
 - Health check: http://127.0.0.1:8000/health
 ### 2. Example Request
+- Once the Fraud Detection API page loads, click the "Try it out" button and copy the json request below into the Request Body and click Execute
 ```json
 {
   "amount": 1200,
