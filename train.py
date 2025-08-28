@@ -1,5 +1,3 @@
-
-
 import os, json, joblib, numpy as np, pandas as pd, mlflow, mlflow.sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -93,3 +91,4 @@ def train():
 
 if __name__ == "__main__":
     train()
+
