@@ -47,3 +47,33 @@ python -m uvicorn app.main:app --reload
   "timestamp": "2025-08-28T12:00:00Z"
 }
 ```
+## 🖥️ Running with Docker
+### 1. Build the image
+  ```bash
+  docker build -t fraud-api .
+  ```
+
+### 2. Run the container
+  ```bash
+  docker run -p 8000:8000 fraud-api
+  ```
+### 3. Test the API
+  - Swagger UI available at: http://127.0.0.1:8000/docs
+
+## 📊 ML Flow
+- ### This project logs parameters, metrics, and artifacts to MLflow.
+  Start MLflow UI
+  ```bash
+  mlflow ui
+  ```
+  Open in browser
+
+  👉 http://127.0.0.1:5000
+
+  You’ll see:
+
+  Logged parameters (e.g., max_iter, n_samples, fraud_rate)
+
+  Validation metrics (ROC AUC, PR AUC)
+
+  Saved artifacts (model.pkl, metadata)
