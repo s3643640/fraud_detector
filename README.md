@@ -79,4 +79,4 @@ python -m uvicorn app.main:app --reload
 
   Validation metrics (ROC AUC, PR AUC)
 
-  Saved artifacts (model.pkl, metadata)
+  Saved artifacts (model.pkl)
