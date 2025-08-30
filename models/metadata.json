@@ -1,0 +1,16 @@
+{
+  "trained_at_utc": "2025-08-29T01:01:31.726115Z",
+  "features": [
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "hour"
+  ],
+  "metrics": {
+    "roc_auc": 1.0,
+    "pr_auc": 1.0
+  },
+  "threshold_default": 0.5
+}
